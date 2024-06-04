@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(CuSi)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   8.01112039
+_cell_length_b   35.51088293
+_cell_length_c   5.03467700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(CuSi)6
+_chemical_formula_sum   'U8 Cu48 Si48'
+_cell_volume   1432.27477258
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.06343718  0.75000000  1
+  U  U1  4  0.00000000  0.18918392  0.25000000  1
+  Cu  Cu2  16  0.23459627  0.37376110  0.50250282  1
+  Si  Si3  8  0.14442181  0.44205438  0.25000000  1
+  Si  Si4  8  0.14512060  0.31360085  0.75000000  1
+  Cu  Cu5  8  0.23745909  0.43706780  0.75000000  1
+  Cu  Cu6  8  0.23824497  0.31219504  0.25000000  1
+  Cu  Cu7  8  0.24000671  0.50000000  0.00000000  1
+  Cu  Cu8  8  0.25000000  0.25000000  0.00000000  1
+  Si  Si9  4  0.00000000  0.02055120  0.25000000  1
+  Si  Si10  4  0.00000000  0.10613242  0.25000000  1
+  Si  Si11  4  0.00000000  0.14653707  0.75000000  1
+  Si  Si12  4  0.00000000  0.22940061  0.75000000  1
+  Si  Si13  4  0.00000000  0.27117235  0.25000000  1
+  Si  Si14  4  0.00000000  0.35632956  0.25000000  1
+  Si  Si15  4  0.00000000  0.39674655  0.75000000  1
+  Si  Si16  4  0.00000000  0.47769637  0.75000000  1

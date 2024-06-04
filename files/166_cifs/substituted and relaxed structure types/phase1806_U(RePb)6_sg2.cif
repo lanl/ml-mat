@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_U(RePb)6
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.28295686
+_cell_length_b   10.95670038
+_cell_length_c   10.96343280
+_cell_angle_alpha   114.89462249
+_cell_angle_beta   90.41181872
+_cell_angle_gamma   90.41766443
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   U(RePb)6
+_chemical_formula_sum   'U2 Re12 Pb12'
+_cell_volume   575.58754265
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  2  0.24999451  0.87215336  0.12912006  1
+  Re  Re1  2  0.00101871  0.21052914  0.20912505  1
+  Re  Re2  2  0.24734750  0.33893285  0.08044531  1
+  Re  Re3  2  0.25264473  0.91964123  0.66116911  1
+  Re  Re4  2  0.49917438  0.79095537  0.78940588  1
+  Re  Re5  1  0.00000000  0.00000000  0.50000000  1
+  Re  Re6  1  0.00000000  0.50000000  0.00000000  1
+  Re  Re7  1  0.50000000  0.00000000  0.50000000  1
+  Re  Re8  1  0.50000000  0.50000000  0.00000000  1
+  Pb  Pb9  2  0.24971514  0.21421524  0.45131149  1
+  Pb  Pb10  2  0.24996919  0.69942354  0.30051853  1
+  Pb  Pb11  2  0.25000530  0.53780074  0.46219366  1
+  Pb  Pb12  2  0.25000555  0.04391459  0.95614403  1
+  Pb  Pb13  2  0.25008421  0.21994501  0.78010984  1
+  Pb  Pb14  2  0.25029035  0.54870211  0.78577487  1

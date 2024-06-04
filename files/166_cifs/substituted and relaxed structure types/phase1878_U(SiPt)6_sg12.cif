@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_U(SiPt)6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   5.60946794
+_cell_length_b   48.72622483
+_cell_length_c   7.74130565
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   91.18307368
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   U(SiPt)6
+_chemical_formula_sum   'U10 Si60 Pt60'
+_cell_volume   2115.46604982
+_cell_formula_units_Z   10
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.20048654  0.50000000  1
+  U  U1  4  0.00000000  0.40048073  0.00000000  1
+  U  U2  2  0.00000000  0.00000000  0.00000000  1
+  Si  Si3  8  0.00236519  0.20005799  0.14857845  1
+  Si  Si4  8  0.00236759  0.59988811  0.64859044  1
+  Si  Si5  4  0.00000000  0.06683228  0.50000000  1
+  Si  Si6  4  0.00000000  0.06711723  0.00000000  1
+  Si  Si7  4  0.00000000  0.13026011  0.00000000  1
+  Si  Si8  4  0.00000000  0.13628513  0.50000000  1
+  Si  Si9  4  0.00000000  0.26692337  0.00000000  1
+  Si  Si10  4  0.00000000  0.26705881  0.50000000  1
+  Si  Si11  4  0.00000000  0.33025981  0.50000000  1
+  Si  Si12  4  0.00000000  0.33629502  0.00000000  1
+  Si  Si13  4  0.00000000  0.46675710  0.00000000  1
+  Si  Si14  4  0.00000000  0.46693232  0.50000000  1
+  Si  Si15  4  0.00228675  0.00000000  0.64877169  1
+  Pt  Pt16  8  0.00123397  0.29996599  0.75630137  1
+  Pt  Pt17  8  0.00124208  0.09999883  0.25623547  1
+  Pt  Pt18  8  0.24873476  0.55010285  0.74390680  1
+  Pt  Pt19  8  0.24896688  0.24997420  0.24406178  1
+  Pt  Pt20  8  0.24919414  0.05005763  0.74391106  1
+  Pt  Pt21  8  0.24998819  0.65000529  0.24998229  1
+  Pt  Pt22  8  0.24999641  0.65000865  0.75001861  1
+  Pt  Pt23  4  0.00128950  0.50000000  0.25658471  1

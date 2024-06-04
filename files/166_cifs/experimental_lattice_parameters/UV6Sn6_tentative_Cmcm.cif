@@ -1,0 +1,54 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'Terbium hexairon hexagermanide'
+_cell_length_a                         9.12000(9)
+_cell_length_b                         19.1200(4)
+_cell_length_c                         5.520000
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      90.000000
+_cell_volume                           962.546715
+_space_group_name_H-M_alt              'C m c m'
+_space_group_IT_number                 63
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   '-x, -y, z+1/2'
+   'x, y, -z+1/2'
+   '-x, y, -z+1/2'
+   'x, -y, z+1/2'
+   'x, -y, -z'
+   '-x, y, z'
+   'x+1/2, y+1/2, z'
+   '-x+1/2, -y+1/2, -z'
+   '-x+1/2, -y+1/2, z+1/2'
+   'x+1/2, y+1/2, -z+1/2'
+   '-x+1/2, y+1/2, -z+1/2'
+   'x+1/2, -y+1/2, z+1/2'
+   'x+1/2, -y+1/2, -z'
+   '-x+1/2, y+1/2, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   U1         1.0     0.000000     0.125700     0.250000    Biso  0.640000 U
+   Sn1        1.0     0.000000     0.043000     0.750000    Biso  0.600000 Sn
+   Sn2        1.0     0.500000     0.043100     0.750000    Biso  0.600000 Sn
+   Sn3        1.0     0.000000     0.213400     0.750000    Biso  0.600000 Sn
+   Sn4        1.0     0.500000     0.206400     0.750000    Biso  0.600000 Sn
+   Sn5        1.0     0.347700     0.124800     0.250000    Biso  0.710000 Sn
+   V1         1.0     0.250000     0.250000     0.000000    Biso  0.600000 V
+   V2         1.0     0.250200     0.000000     0.000000    Biso  0.570000 V
+   V3         1.0     0.250200     0.125400     0.750000    Biso  0.580000 V

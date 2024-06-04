@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(HgPb)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   15.01828280
+_cell_length_b   40.08782736
+_cell_length_c   5.77910472
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(HgPb)6
+_chemical_formula_sum   'U8 Hg48 Pb48'
+_cell_volume   3479.31189218
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.31350943  0.25000000  1
+  U  U1  4  0.00000000  0.43682063  0.75000000  1
+  Hg  Hg2  16  0.23878374  0.87497674  0.50011101  1
+  Hg  Hg3  8  0.23827221  0.81236004  0.75000000  1
+  Hg  Hg4  8  0.24063794  0.06248018  0.75000000  1
+  Hg  Hg5  8  0.24830474  0.00000000  0.00000000  1
+  Hg  Hg6  8  0.25000000  0.25000000  0.00000000  1
+  Pb  Pb7  8  0.10488221  0.18757350  0.75000000  1
+  Pb  Pb8  8  0.10582898  0.94003997  0.75000000  1
+  Pb  Pb9  4  0.00000000  0.02116334  0.75000000  1
+  Pb  Pb10  4  0.00000000  0.10333316  0.75000000  1
+  Pb  Pb11  4  0.00000000  0.14452957  0.25000000  1
+  Pb  Pb12  4  0.00000000  0.23002170  0.25000000  1
+  Pb  Pb13  4  0.00000000  0.27225080  0.75000000  1
+  Pb  Pb14  4  0.00000000  0.35384715  0.75000000  1
+  Pb  Pb15  4  0.00000000  0.39567016  0.25000000  1
+  Pb  Pb16  4  0.00000000  0.47902194  0.25000000  1

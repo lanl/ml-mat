@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_U(CdSi)6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   41.67972337
+_cell_length_b   8.48906725
+_cell_length_c   5.78841148
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.47860466
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   U(CdSi)6
+_chemical_formula_sum   'U8 Cd48 Si48'
+_cell_volume   2047.99572624
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z'
+  4  'x, -y, z'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'x+1/2, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.06491334  0.00000000  0.25117948  1
+  U  U1  4  0.18847659  0.00000000  0.75036691  1
+  Cd  Cd2  8  0.06287663  0.24744143  0.75029952  1
+  Cd  Cd3  8  0.12556692  0.25057445  0.49852706  1
+  Cd  Cd4  8  0.12563084  0.25258080  0.00014746  1
+  Cd  Cd5  8  0.18840653  0.24769476  0.24920308  1
+  Cd  Cd6  4  0.00000000  0.24610995  0.00000000  1
+  Cd  Cd7  4  0.00000000  0.24620353  0.50000000  1
+  Cd  Cd8  4  0.25000000  0.25000000  0.00000000  1
+  Cd  Cd9  4  0.25000000  0.25000000  0.50000000  1
+  Si  Si10  8  0.05924861  0.36532347  0.25309655  1
+  Si  Si11  8  0.18254498  0.36514460  0.75073389  1
+  Si  Si12  4  0.02309292  0.50000000  0.75148475  1
+  Si  Si13  4  0.02504353  0.00000000  0.75085454  1
+  Si  Si14  4  0.10157057  0.50000000  0.74263178  1
+  Si  Si15  4  0.10435446  0.00000000  0.75460372  1
+  Si  Si16  4  0.14726836  0.00000000  0.24547954  1
+  Si  Si17  4  0.15180822  0.50000000  0.25106629  1
+  Si  Si18  4  0.22685723  0.00000000  0.25277731  1
+  Si  Si19  4  0.23285306  0.50000000  0.25079941  1

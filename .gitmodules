@@ -1,0 +1,3 @@
+[submodule "extern/mace"]
+	path = extern/mace
+	url = https://github.com/ACEsuit/mace

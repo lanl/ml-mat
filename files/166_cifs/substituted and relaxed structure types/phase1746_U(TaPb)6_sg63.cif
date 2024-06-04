@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(TaPb)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   10.21159109
+_cell_length_b   40.38870083
+_cell_length_c   5.81732020
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(TaPb)6
+_chemical_formula_sum   'U8 Ta48 Pb48'
+_cell_volume   2399.25422764
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.31122155  0.25000000  1
+  U  U1  4  0.00000000  0.43646460  0.75000000  1
+  Ta  Ta2  16  0.24308192  0.37524376  0.50105231  1
+  Ta  Ta3  8  0.24188707  0.43744261  0.25000000  1
+  Ta  Ta4  8  0.24214694  0.50000000  0.00000000  1
+  Ta  Ta5  8  0.24236842  0.31249369  0.75000000  1
+  Ta  Ta6  8  0.25000000  0.25000000  0.00000000  1
+  Pb  Pb7  8  0.17301173  0.18701174  0.75000000  1
+  Pb  Pb8  8  0.17356366  0.06215822  0.25000000  1
+  Pb  Pb9  4  0.00000000  0.02087110  0.75000000  1
+  Pb  Pb10  4  0.00000000  0.10353180  0.75000000  1
+  Pb  Pb11  4  0.00000000  0.14512155  0.25000000  1
+  Pb  Pb12  4  0.00000000  0.22805243  0.25000000  1
+  Pb  Pb13  4  0.00000000  0.27016527  0.75000000  1
+  Pb  Pb14  4  0.00000000  0.35337268  0.75000000  1
+  Pb  Pb15  4  0.00000000  0.39497993  0.25000000  1
+  Pb  Pb16  4  0.00000000  0.47884729  0.25000000  1

@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_U(GeAu)6
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.68654269
+_cell_length_b   9.00996618
+_cell_length_c   15.34994274
+_cell_angle_alpha   84.45485899
+_cell_angle_beta   80.78119178
+_cell_angle_gamma   83.04546061
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   U(GeAu)6
+_chemical_formula_sum   'U3 Ge18 Au18'
+_cell_volume   768.19549212
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  2  0.33595815  0.83339055  0.32960845  1
+  U  U1  1  0.00000000  0.00000000  0.00000000  1
+  Ge  Ge2  2  0.01349649  0.36189662  0.99508636  1
+  Ge  Ge3  2  0.11421205  0.10934754  0.77706860  1
+  Ge  Ge4  2  0.13440648  0.60559523  0.78993134  1
+  Ge  Ge5  2  0.20187645  0.20264039  0.57672756  1
+  Ge  Ge6  2  0.21303331  0.73408686  0.53246085  1
+  Ge  Ge7  2  0.31685617  0.46556270  0.34396984  1
+  Ge  Ge8  2  0.34827032  0.19255264  0.32819190  1
+  Ge  Ge9  2  0.44808381  0.94320348  0.11158216  1
+  Ge  Ge10  2  0.46735493  0.44009799  0.11857033  1
+  Au  Au11  2  0.15832067  0.16354054  0.16931085  1
+  Au  Au12  2  0.15941634  0.42415849  0.67012934  1
+  Au  Au13  2  0.17471857  0.91314117  0.66315363  1
+  Au  Au14  2  0.17635192  0.67260437  0.16095273  1
+  Au  Au15  2  0.32717486  0.33535195  0.83535165  1
+  Au  Au16  2  0.33680997  0.82958922  0.83289282  1
+  Au  Au17  2  0.48836590  0.24805022  0.00423459  1
+  Au  Au18  1  0.00000000  0.00000000  0.50000000  1
+  Au  Au19  1  0.00000000  0.50000000  0.50000000  1
+  Au  Au20  1  0.50000000  0.00000000  0.50000000  1
+  Au  Au21  1  0.50000000  0.50000000  0.50000000  1

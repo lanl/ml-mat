@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(CrSn)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   9.32156515
+_cell_length_b   36.98198853
+_cell_length_c   5.33299587
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(CrSn)6
+_chemical_formula_sum   'U8 Cr48 Sn48'
+_cell_volume   1838.44374908
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.06400334  0.25000000  1
+  U  U1  4  0.00000000  0.19043255  0.75000000  1
+  Cr  Cr2  16  0.24921323  0.37534040  0.50232952  1
+  Cr  Cr3  8  0.24609797  0.18780567  0.25000000  1
+  Cr  Cr4  8  0.24816103  0.00000000  0.00000000  1
+  Cr  Cr5  8  0.24877679  0.06259310  0.75000000  1
+  Cr  Cr6  8  0.25000000  0.25000000  0.00000000  1
+  Sn  Sn7  8  0.16164573  0.31303716  0.25000000  1
+  Sn  Sn8  8  0.16228019  0.43856198  0.75000000  1
+  Sn  Sn9  4  0.00000000  0.02113214  0.75000000  1
+  Sn  Sn10  4  0.00000000  0.10552560  0.75000000  1
+  Sn  Sn11  4  0.00000000  0.14711988  0.25000000  1
+  Sn  Sn12  4  0.00000000  0.23207639  0.25000000  1
+  Sn  Sn13  4  0.00000000  0.27505121  0.75000000  1
+  Sn  Sn14  4  0.00000000  0.35570741  0.75000000  1
+  Sn  Sn15  4  0.00000000  0.39688421  0.25000000  1
+  Sn  Sn16  4  0.00000000  0.47864761  0.25000000  1

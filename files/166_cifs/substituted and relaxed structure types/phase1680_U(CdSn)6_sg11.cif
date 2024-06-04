@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_U(CdSn)6
+_symmetry_space_group_name_H-M   P2_1/m
+_cell_length_a   10.33728508
+_cell_length_b   5.83346724
+_cell_length_c   11.71007628
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   115.48385971
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   11
+_chemical_formula_structural   U(CdSn)6
+_chemical_formula_sum   'U2 Cd12 Sn12'
+_cell_volume   637.44036594
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z'
+  4  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  2  0.38748940  0.25000000  0.27442163  1
+  Cd  Cd1  4  0.25468688  0.00006404  0.49999786  1
+  Cd  Cd2  2  0.00000000  0.00000000  0.00000000  1
+  Cd  Cd3  2  0.12633297  0.75000000  0.25128354  1
+  Cd  Cd4  2  0.37537723  0.25000000  0.74895502  1
+  Cd  Cd5  2  0.50000000  0.00000000  0.00000000  1
+  Sn  Sn6  2  0.03347148  0.25000000  0.56716566  1
+  Sn  Sn7  2  0.06999322  0.25000000  0.25204986  1
+  Sn  Sn8  2  0.23167815  0.25000000  0.96303991  1
+  Sn  Sn9  2  0.30518954  0.75000000  0.10993127  1
+  Sn  Sn10  2  0.31791634  0.75000000  0.74816606  1
+  Sn  Sn11  2  0.45772243  0.75000000  0.41534402  1

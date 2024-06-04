@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_U(FeSn)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   9.06182055
+_cell_length_b   18.65244522
+_cell_length_c   5.40386671
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(FeSn)6
+_chemical_formula_sum   'U4 Fe24 Sn24'
+_cell_volume   913.38917386
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.12700038  0.75000000  1
+  Fe  Fe1  8  0.24173515  0.12518977  0.25000000  1
+  Fe  Fe2  8  0.24469014  0.00000000  0.00000000  1
+  Fe  Fe3  8  0.25000000  0.25000000  0.00000000  1
+  Sn  Sn4  8  0.16580410  0.37568378  0.25000000  1
+  Sn  Sn5  4  0.00000000  0.04179544  0.25000000  1
+  Sn  Sn6  4  0.00000000  0.21440634  0.25000000  1
+  Sn  Sn7  4  0.00000000  0.29758980  0.75000000  1
+  Sn  Sn8  4  0.00000000  0.45890557  0.75000000  1

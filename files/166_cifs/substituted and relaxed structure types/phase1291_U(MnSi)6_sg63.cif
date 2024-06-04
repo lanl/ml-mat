@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(MnSi)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   7.98507922
+_cell_length_b   33.96829234
+_cell_length_c   4.84331579
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(MnSi)6
+_chemical_formula_sum   'U8 Mn48 Si48'
+_cell_volume   1313.69857848
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.30865439  0.25000000  1
+  U  U1  4  0.00000000  0.43682622  0.75000000  1
+  Mn  Mn2  16  0.24649236  0.12459883  0.00345244  1
+  Mn  Mn3  8  0.24408548  0.68802598  0.25000000  1
+  Mn  Mn4  8  0.24750098  0.00000000  0.00000000  1
+  Mn  Mn5  8  0.24974035  0.43744986  0.25000000  1
+  Mn  Mn6  8  0.25000000  0.25000000  0.00000000  1
+  Si  Si7  8  0.14824230  0.06185092  0.25000000  1
+  Si  Si8  8  0.14952026  0.18627013  0.75000000  1
+  Si  Si9  4  0.00000000  0.02120523  0.75000000  1
+  Si  Si10  4  0.00000000  0.10322749  0.75000000  1
+  Si  Si11  4  0.00000000  0.14648013  0.25000000  1
+  Si  Si12  4  0.00000000  0.22416517  0.25000000  1
+  Si  Si13  4  0.00000000  0.26370248  0.75000000  1
+  Si  Si14  4  0.00000000  0.35361004  0.75000000  1
+  Si  Si15  4  0.00000000  0.39337982  0.25000000  1
+  Si  Si16  4  0.00000000  0.47967231  0.25000000  1

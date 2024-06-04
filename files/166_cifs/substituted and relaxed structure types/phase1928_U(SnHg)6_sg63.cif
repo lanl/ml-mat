@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(SnHg)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   9.28838418
+_cell_length_b   51.38561654
+_cell_length_c   5.82442800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(SnHg)6
+_chemical_formula_sum   'U8 Sn48 Hg48'
+_cell_volume   2779.93743816
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.29376825  0.75000000  1
+  U  U1  4  0.00000000  0.41823049  0.25000000  1
+  Sn  Sn2  8  0.15691465  0.18636478  0.25000000  1
+  Sn  Sn3  8  0.15883332  0.05790367  0.75000000  1
+  Sn  Sn4  4  0.00000000  0.02927993  0.25000000  1
+  Sn  Sn5  4  0.00000000  0.09660332  0.25000000  1
+  Sn  Sn6  4  0.00000000  0.15488236  0.75000000  1
+  Sn  Sn7  4  0.00000000  0.22650040  0.75000000  1
+  Sn  Sn8  4  0.00000000  0.27108743  0.25000000  1
+  Sn  Sn9  4  0.00000000  0.34955508  0.25000000  1
+  Sn  Sn10  4  0.00000000  0.39385275  0.75000000  1
+  Sn  Sn11  4  0.00000000  0.47199263  0.75000000  1
+  Hg  Hg12  16  0.24747077  0.37826290  0.00885563  1
+  Hg  Hg13  8  0.21790882  0.31071534  0.25000000  1
+  Hg  Hg14  8  0.21878600  0.43539219  0.75000000  1
+  Hg  Hg15  8  0.24362581  0.50000000  0.00000000  1
+  Hg  Hg16  8  0.25000000  0.25000000  0.00000000  1

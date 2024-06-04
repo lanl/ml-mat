@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Hf6UGe6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   8.37467065
+_cell_length_b   41.77593366
+_cell_length_c   6.01349147
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   Hf6UGe6
+_chemical_formula_sum   'Hf48 U8 Ge48'
+_cell_volume   2103.87823328
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  16  0.24842340  0.12509495  0.00047081  1
+  Hf  Hf1  8  0.24594130  0.50000000  0.00000000  1
+  Hf  Hf2  8  0.24983535  0.06247210  0.25000000  1
+  Hf  Hf3  8  0.24985279  0.18749780  0.75000000  1
+  Hf  Hf4  8  0.25000000  0.25000000  0.00000000  1
+  U  U5  4  0.00000000  0.31051003  0.75000000  1
+  U  U6  4  0.00000000  0.43469924  0.25000000  1
+  Ge  Ge7  8  0.16559118  0.18715649  0.25000000  1
+  Ge  Ge8  8  0.16708183  0.06045082  0.75000000  1
+  Ge  Ge9  4  0.00000000  0.02047334  0.25000000  1
+  Ge  Ge10  4  0.00000000  0.10359887  0.25000000  1
+  Ge  Ge11  4  0.00000000  0.14609295  0.75000000  1
+  Ge  Ge12  4  0.00000000  0.23030866  0.75000000  1
+  Ge  Ge13  4  0.00000000  0.27203884  0.25000000  1
+  Ge  Ge14  4  0.00000000  0.35432340  0.25000000  1
+  Ge  Ge15  4  0.00000000  0.39562714  0.75000000  1
+  Ge  Ge16  4  0.00000000  0.47838430  0.75000000  1

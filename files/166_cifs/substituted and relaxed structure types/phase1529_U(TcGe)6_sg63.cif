@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_U(TcGe)6
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   8.47385929
+_cell_length_b   37.06408211
+_cell_length_c   5.34075564
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   U(TcGe)6
+_chemical_formula_sum   'U8 Tc48 Ge48'
+_cell_volume   1677.40218996
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+  9  'x+1/2, y+1/2, z'
+  10  '-x+1/2, -y+1/2, -z'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  'x+1/2, y+1/2, -z+1/2'
+  13  'x+1/2, -y+1/2, -z'
+  14  '-x+1/2, y+1/2, z'
+  15  '-x+1/2, y+1/2, -z+1/2'
+  16  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  4  0.00000000  0.31002537  0.25000000  1
+  U  U1  4  0.00000000  0.43662421  0.75000000  1
+  Tc  Tc2  16  0.24566221  0.37519619  0.50170282  1
+  Tc  Tc3  8  0.23977739  0.31227680  0.75000000  1
+  Tc  Tc4  8  0.24132100  0.43723691  0.25000000  1
+  Tc  Tc5  8  0.24308209  0.50000000  0.00000000  1
+  Tc  Tc6  8  0.25000000  0.25000000  0.00000000  1
+  Ge  Ge7  8  0.15919006  0.18688882  0.75000000  1
+  Ge  Ge8  8  0.16312763  0.06142692  0.25000000  1
+  Ge  Ge9  4  0.00000000  0.02192257  0.75000000  1
+  Ge  Ge10  4  0.00000000  0.10258421  0.75000000  1
+  Ge  Ge11  4  0.00000000  0.14673557  0.25000000  1
+  Ge  Ge12  4  0.00000000  0.22656671  0.25000000  1
+  Ge  Ge13  4  0.00000000  0.26859543  0.75000000  1
+  Ge  Ge14  4  0.00000000  0.35388803  0.75000000  1
+  Ge  Ge15  4  0.00000000  0.39430537  0.25000000  1
+  Ge  Ge16  4  0.00000000  0.47904256  0.25000000  1
