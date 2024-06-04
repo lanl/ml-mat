@@ -1,0 +1,30 @@
+stages:
+  - test
+
+default:
+  tags:
+    - darwin-slurm-shared
+
+basic_test:
+  id_tokens:
+      SITE_ID_TOKEN:
+        aud: https://gitlab.lanl.gov
+  stage: test
+  script: 
+    - "source ./scripts/basic_ci.sh test.py"
+    
+parsl_test:
+  id_tokens:
+      SITE_ID_TOKEN:
+        aud: https://gitlab.lanl.gov
+  stage: test
+  script: 
+    - "source ./scripts/basic_ci.sh ./tests/base.py"
+    
+monte_carlo_test:
+  id_tokens:
+      SITE_ID_TOKEN:
+        aud: https://gitlab.lanl.gov
+  stage: test
+  script: 
+    - "source ./scripts/basic_ci.sh ./tests/mcarlo.py"
