@@ -3,7 +3,7 @@ warnings.filterwarnings(action='ignore',module='.*paramiko.*')
 
 import pandas as pd
 from base import runner
-from MACE.calculators import mace_mp
+from mace.calculators import mace_mp
 from matbench_discovery.energy import get_e_form_per_atom
 from ase.spacegroup import get_spacegroup
 from ase import Atoms
@@ -40,7 +40,7 @@ if __name__ == '__main__':
     files = [base_dir + "/" + file for file in os.listdir(base_dir)]
 
     red = MACEReduction()
-    run = MACERunner(files, "[[MODEL DIRECTORY]]")
+    run = MACERunner(files, "./files/models/[[MODEL NAME]]")
 
     data_frame = runner.execute_runner(run, red).result()
     print(data_frame)
