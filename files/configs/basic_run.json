@@ -1,0 +1,15 @@
+{
+    "executions": [
+        {
+            "runner": "mace",
+            "reduction": "pandas_reduce"
+        }
+    ],
+    "args": [
+        {
+            "model": "./files/models/2024-01-07-mace-128-L2_epoch-199.model"
+        }
+    ],
+    "parsl_config": "darwin",
+    "base_dir": "./files/166_cifs/substituted_and_relaxed_structure_types"
+}

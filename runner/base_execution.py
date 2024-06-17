@@ -13,26 +13,28 @@ class Base:
             except Exception as e:
                 yield "Error reading file: " + str(e), False
 
-def execute_runner(config, runner, reduction, files, *args):  
+def execute_runner(config, run_red_list, files, dict_list):  
     parsl.load(config)
 
     r = Base(files)
     print("Executing runner...")
 
     # We want to parse the CIF files in parallel...
-    runs = []
+    runs = [[] for r in range(len(run_red_list))]
     for atoms, success in r.open_file():
         if not success:
             # In the case of failure, it returns an error string
             print(atoms)
         else:
             # Then we execute the run method inside of its own instance
-            runs.append(runner(atoms, args))
+            for c, (runner, _) in enumerate(run_red_list):
+                runs[c].append(runner(atoms, dict_list[c]))
 
     start_time = time.time()
-    res = [r.result() for r in runs]
+    #res = [r.result() for r in runs]
+    res = [ reduction([r.result() for r in runs[c]]) for c, (_, reduction) in enumerate(run_red_list) ]
     print("--- Execution took %s seconds ---" % (time.time() - start_time))   
 
     parsl.dfk().cleanup()
 
-    return reduction(res)
+    return res

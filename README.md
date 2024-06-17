@@ -3,7 +3,7 @@
 ## Code Design
 ![diagram](docs/diagram.png)
 
-In order to parallelize the various aspects of the process, we expect the three items outlined in blue to be performed/supplied to all parsl instances. Thus, every *different kind of process* can be implemented in its own function that gets passed to it an `ase.Atoms` object obtained from a `CIF` file. The `execute_runner` function handles this functionality. You pass to it a `parsl` configuration, a `runner` function (implemented as a `@python_app`), a `reduce` function that takes a list of the returns of `runner`, a list of file name strings, and finally any other arguments you want to pass to the `runner` function.
+In order to parallelize the various aspects of the process, we expect the three items outlined in blue to be performed/supplied to all parsl instances. Thus, every *different kind of process* can be implemented in its own function that gets passed to it an `ase.Atoms` object obtained from a `CIF` file. The `execute_runner` function handles this functionality. You pass to it a `parsl` configuration, a list of `runner` functions (implemented as a `@python_app`) in a tuple with a `reduce` function that takes a list of the returns of `runner`, a list of file name strings, and finally any other info you need to pass along to the runners in the form of a list of `dict` objects.
 
 Each runner is executed for each file in parallel and their returns are agreggated into a final object using the `reduce` function.
 
