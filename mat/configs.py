@@ -3,7 +3,22 @@
 from parsl.config import Config
 from parsl.executors import HighThroughputExecutor
 from parsl.launchers import SrunLauncher
-from parsl.providers import SlurmProvider
+from parsl.providers import SlurmProvider, LocalProvider
+
+def get_local(max_blocks, parallelism):
+    return Config(
+        executors = [HighThroughputExecutor(
+            label = "local-executor",
+            worker_debug = False,
+            max_workers_per_node=40,
+            cores_per_worker = 0.01,
+            provider = LocalProvider(
+                max_blocks = max_blocks,
+                parallelism = parallelism,
+                worker_init = "module load miniconda3 && conda init && conda activate mat-env"
+            )
+        )]
+    )
 
 configs = {
     "darwin": Config(
@@ -22,9 +37,10 @@ configs = {
                     cmd_timeout = 60,
                     walltime = '00:25:00',
                     launcher = SrunLauncher(),
-                    worker_init = 'echo "Got node $(hostname)" && echo $(pwd) && module load miniconda3 cuda && conda init && conda activate mat-env-shared-gpu'
+                    worker_init = 'echo "Got node $(hostname)" && echo $(pwd) && module load miniconda3 && conda init && conda activate mat-env-shared-gpu'
                 )
             )
         ]
-)
+    ),
+    "local": get_local(1, 0.95)
 }

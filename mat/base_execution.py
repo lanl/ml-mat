@@ -33,7 +33,7 @@ def execute_runner(config, run_red_list, files, dict_list):
     start_time = time.time()
     #res = [r.result() for r in runs]
     res = [ reduction([r.result() for r in runs[c]]) for c, (_, reduction) in enumerate(run_red_list) ]
-    print("--- Execution took %s seconds ---" % (time.time() - start_time))   
+    #print("--- Execution took %s seconds ---" % (time.time() - start_time))   
 
     parsl.dfk().cleanup()
 

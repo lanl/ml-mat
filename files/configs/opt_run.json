@@ -11,5 +11,6 @@
         }
     ],
     "parsl_config": "local",
-    "base_dir": "./files/166_cifs/substituted_and_relaxed_structure_types"
+    "base_dir": "./files/166_cifs/substituted_and_relaxed_structure_types",
+    "max_inputs": 10
 }
