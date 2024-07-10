@@ -5,9 +5,9 @@ import time
 
 from base_execution import execute_runner
 from parsl import python_app
-import os, sys, json, argparse
+import os, json, argparse
 
-from configs import configs, get_local
+from configs import configs
 import pandas as pd
 
 # ----------- Reductions -----------
@@ -25,17 +25,21 @@ def execute_mace(atoms, model_dir):
     from matbench_discovery.energy import get_e_form_per_atom
     from ase.spacegroup import get_spacegroup
     from mace.calculators import mace_mp
-    from ase.phonons import Phonons
+    from ase.optimize import BFGS
+    from ase.constraints import ExpCellFilter
 
     a_copy = atoms.copy()
-    calc = mace_mp(model=model_dir["model"], dispersion=False, default_dtype="float64", device='cpu')
+    atoms.calc = mace_mp(model=model_dir["model"], dispersion=False, default_dtype="float32", device='cpu')
+    relaxed = ExpCellFilter(atoms)
+    opt = BFGS(relaxed)
+    opt.run(fmax=1e-4)
+    atoms_relaxed = relaxed.atoms
 
-    atoms.calc = calc
-    e_form = get_e_form_per_atom(dict(energy=atoms.get_total_energy(),composition=atoms.get_chemical_formula()))
+    e_form = get_e_form_per_atom(dict(energy=atoms_relaxed.get_total_energy(),composition=atoms_relaxed.get_chemical_formula()))
 
     return {
-        "symbols": atoms.get_chemical_formula(mode='metal'),
-        "space-group": get_spacegroup(atoms, symprec=1e-3).no,
+        "symbols": a_copy.get_chemical_formula(mode='metal'),
+        "space-group": get_spacegroup(a_copy, symprec=1e-3).no,
         "Atoms": a_copy,
         "E_form": e_form
     }
@@ -44,7 +48,6 @@ runners = { "mace": execute_mace }
 
 def load_config(filename):
     return json.loads(open(filename, "r").read())
-
 
 def execute_config(config, parsl_config = None):
     executors = []
@@ -58,30 +61,13 @@ def execute_config(config, parsl_config = None):
     start_time = time.time()
 
     data_frame = execute_runner(configs[config["parsl_config"]] if parsl_config is None else parsl_config, executors, files, config["args"])
-    
     print(data_frame[0])
+    
+    print("Writing dataframe to out.tar")
+    data_frame[0].to_pickle("out.tar")
 
     print("------- done in %s seconds -------", time.time() - start_time)
     return data_frame, time.time() - start_time
-
-
-# ---------- Optimizeing algorithm ----------
-def optimize():
-    config = load_config("./files/configs/opt_run.json")
-    
-    data = {"data": []}
-    for blocks in range(1, 20, 2):
-        for parallel_int in range(2, 10):
-            _, time = execute_config(config, parsl_config=get_local(blocks, parallel_int / 10.0))
-            data["data"].append((blocks, parallel_int / 10.0, time))
-    
-    min = 100000000
-    best_time = None
-    for d in data["data"]:
-        if d[2] < min: 
-            min = d[2]
-            best_time = d
-    open("out.txt", "w").write(json.dumps({ "best_config": best_time }))
 
 
 if __name__ == "__main__":
@@ -89,24 +75,7 @@ if __name__ == "__main__":
         prog="Parallel Run",
         description="A simple scheme parallelizing indepdent algorithms")
     parser.add_argument("-c", "--config", default="./files/configs/basic_run.json", help="Configuration file to execute")
-    parser.add_argument("-e", "--execute_config", action='store_true', help="Execute the given configuration file")
-    parser.add_argument("-o", "--optimize", action='store_true', help="Run the local parsl config optimization algorithm")
     args = parser.parse_args()
 
-    if args.execute_config and args.optimize: print("Cannot perform optimization and execution in the same run...")
-    else:
-        if args.execute_config: 
-            print("Executing configuration file '" + args.config + "'...")
-            execute_config(load_config(args.config))
-        elif args.optimize:       
-            print("Optimizing local configuration...")
-            optimize()
-        else: parser.print_usage()
-
-    #config_file = ""
-    #if len(sys.argv) == 1:
-    #    config_file = "./files/configs/basic_run.json"
-    #else:
-    #    config_file = sys.argv[1]
-    
-    #execute_config(load_config(config_file))
+    print("Executing configuration file '" + args.config + "'...")
+    execute_config(load_config(args.config))

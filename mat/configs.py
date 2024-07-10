@@ -25,19 +25,19 @@ configs = {
         executors = [
             HighThroughputExecutor(
                 label = "gpu-executor",
-                worker_debug = False,
+                max_workers=55,
                 max_workers_per_node=40,
-                cores_per_worker = 1,
+                cores_per_worker=1,
                 cpu_affinity='alternating',
                 provider = SlurmProvider(
                     partition = "skylake-gold",
-                    nodes_per_block = 5,
+                    nodes_per_block = 4,
                     init_blocks = 1,
                     max_blocks = 1,
                     cmd_timeout = 60,
-                    walltime = '00:25:00',
-                    launcher = SrunLauncher(),
-                    worker_init = 'echo "Got node $(hostname)" && echo $(pwd) && module load miniconda3 && conda init && conda activate mat-env-shared-gpu'
+                    walltime = '08:00:00',
+                    launcher = SrunLauncher(overrides='-c 64'),
+                    worker_init = 'echo "Got node $(hostname)" && echo $(pwd) && module load miniconda3 && conda init && conda activate mat-env'
                 )
             )
         ]

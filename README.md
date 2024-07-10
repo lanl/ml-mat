@@ -7,6 +7,9 @@ In order to parallelize the various aspects of the process, we expect the three 
 
 Each runner is executed for each file in parallel and their returns are agreggated into a final object using the `reduce` function.
 
+## Command Line
+
+
 ## CI Example
 So, here is an example of running simple `unittests`, some of which have to do with Parsl directly (the `config.py` and `mcarlo.py` files). The virtual environment is in my current home directory, but a shared folder is better.
 

@@ -10,6 +10,7 @@
             "model": "./files/models/2024-01-07-mace-128-L2_epoch-199.model"
         }
     ],
-    "parsl_config": "local",
-    "base_dir": "./files/166_cifs/substituted_and_relaxed_structure_types"
+    "parsl_config": "darwin",
+    "base_dir": "./files/166_cifs/substituted_and_relaxed_structure_types",
+    "max_inputs": 50
 }
