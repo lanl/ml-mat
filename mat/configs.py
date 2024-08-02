@@ -25,15 +25,15 @@ configs = {
         executors = [
             HighThroughputExecutor(
                 label = "gpu-executor",
-                max_workers=55,
-                max_workers_per_node=40,
+                max_workers=700,
+                max_workers_per_node=44,
                 cores_per_worker=1,
                 cpu_affinity='alternating',
                 provider = SlurmProvider(
                     partition = "skylake-gold",
                     nodes_per_block = 4,
                     init_blocks = 1,
-                    max_blocks = 1,
+                    max_blocks = 3,
                     cmd_timeout = 60,
                     walltime = '08:00:00',
                     launcher = SrunLauncher(overrides='-c 64'),
